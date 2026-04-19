@@ -1,4 +1,11 @@
-# Report举报插件配置文件
+# ------------------------------
+# Report Plugins
+# 1.0
+# 作者: Minecraft_Sam111
+# GitHub: Master_Fox
+# QQ: 3750389826
+# Discord: littleshen11_62370
+# ------------------------------
 
 # 举报原因列表（显示在GUI中）
 report-reasons:
