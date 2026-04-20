@@ -1,0 +1,54 @@
+# ------------------------------
+# Report Plugins
+# 1.0
+# 作者: Minecraft_Sam111
+# GitHub: Master_Fox
+# QQ: 3750389826
+# Discord: littleshen11_62370
+# ------------------------------
+
+# 举报原因列表（显示在GUI中）
+report-reasons:
+  - "&c作弊/外挂"
+  - "&6恶意骚扰"
+  - "&e刷屏/广告"
+  - "&2恶意破坏"
+  - "&b偷窃/抢夺"
+  - "&d语言辱骂"
+  - "&5利用BUG"
+  - "&3其他违规"
+
+# 举报成功后显示的消息
+messages:
+  prefix: "&8[&c举报&8] &r"
+  no-permission: "&c你没有权限执行此命令！"
+  player-only: "&c此命令只能由玩家执行！"
+  report-sent: "&a举报已提交！管理员会尽快处理。"
+  report-received: "&e玩家 {player} 举报了 {target}，原因：{reason}"
+  report-list-header: "&6=== 举报列表 ==="
+  report-list-empty: "&c当前没有任何举报记录！"
+  report-list-entry: "&7- #{id} &e{target} &7被 &e{reporter} &7举报，原因：&f{reason}"
+  report-list-footer: "&6================"
+  report-deleted: "&a举报 #{id} 已被删除！"
+  report-handled: "&a举报 #{id} 已被标记为已处理！"
+  report-not-found: "&c找不到举报 #{id}！"
+  cannot-report-self: "&c你不能举报自己！"
+  player-not-found: "&c找不到该玩家！"
+  report-cooldown: "&c请等待 {time} 秒后再举报！"
+  gui-title: "&8选择要举报的玩家"
+  gui-reason-title: "&8选择举报原因"
+  gui-report-title: "&a举报 &e{player}"
+  
+# 冷却时间设置（秒）
+cooldown:
+  enabled: true
+  time: 60
+
+# 是否在举报时通知OP
+notify-ops: true
+
+# 是否保存举报记录到文件
+save-to-file: true
+
+# 举报记录保留天数（超过自动删除，0表示不删除）
+max-days: 7
