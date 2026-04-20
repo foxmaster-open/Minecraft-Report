@@ -1,7 +1,6 @@
 # Report举报插件
 
-一个简单易用的举报系统，普通玩家可以举报任何人（包括OP），管理员可以查看所有举报记录。
-
+一个简单易用的举报系统，普通玩家可以举报任何人（包括OP），管理员可以查看所有举报记录。 拥有 Chest UI
 ## ✨ 功能特点
 
 - **普通玩家举报** - 任何人都可以使用 `/report` 命令举报违规玩家
@@ -42,14 +41,15 @@ max-days: 7
 messages:
   prefix: "&8[&c举报&8] &r"
   report-success: "&a举报已提交！管理员将会处理。"
-  # ... 更多消息配置
-🎮 使用示例
+  # ... 更多消息
+```
+## 🎮 使用示例
 玩家举报
 minecraft
 /report Steve 使用飞行外挂
 效果：举报提交，在线管理员收到通知
 
-管理员查看举报
+## 管理员查看举报
 minecraft
 /reportlist
 效果：显示所有举报记录
@@ -58,21 +58,21 @@ minecraft
 /reportlist 2
 效果：查看第2页
 
-📦 安装方法
+## 📦 安装方法
 将插件jar文件放入 plugins 文件夹
 
 重启服务器或使用 plugman load Report
 
 配置文件在 plugins/Report/config.yml
 
-💾 数据存储
+## 💾 数据存储
 举报记录保存在 plugins/Report/reports.yml
 
 自动清理超过指定天数的记录
 
 包含举报者、被举报者、理由、时间
 
-📌 注意事项
+## 📌 注意事项
 不能举报自己
 
 有冷却时间防止刷屏
