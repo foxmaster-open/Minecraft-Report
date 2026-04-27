@@ -45,19 +45,16 @@ messages:
 ```
 ## 🎮 使用示例
 玩家举报
-minecraft
+```
 /report Steve 使用飞行外挂
 效果：举报提交，在线管理员收到通知
 
-## 管理员查看举报
-minecraft
-/reportlist
+/reportlist 
 效果：显示所有举报记录
 
-minecraft
 /reportlist 2
 效果：查看第2页
-
+```
 ## 📦 安装方法
 将插件jar文件放入 plugins 文件夹
 
